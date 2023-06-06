@@ -1,59 +1,41 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: #222;
-    background: #f7f7f7;
-  }
-  a {
+    font-family: 'roboto', sans-serif;
+    color:#222;
+    background: #f7f5f0;
+}
+a {
     text-decoration: none;
-    color: #030000;
-  }
-  .main-nav {
+    color: #999;
+}
+a:hover {
+    color: #850202;
+}
+.main-nav {
     width: 100%;
-    background: #850202;
-    min-width: 45px;
+    background: #222;
+    min-height: 30px;
     padding: 10px;
     position: fixed;
     text-align: center;
-  }
-  .nav {
-    display: flex;
-    justify-content: space-around;
-    font-weight: 700;
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-  }
-  header {
-    text-align: center;
-    background: url('images/image3.jpg') no-repeat top center ;
-    background-size: cover;
-    overflow: hidden;
-    padding-top: 60px;
-  }
-  .head {
-    color: #f7f5f0;
-    }
-    header {
-        min-height: 470px;
-      }
-      a.github {
-        background-image: url(images/github.svg);
-      }
-      a.social:hover {
-        opacity: 1;
-      }
-      a.social {
-        display: inline-block;
-        text-indent: -9999px;
-        margin-left: 5px;
-        width: 30px;
-        height: 30px;
-        background-size: 30px 30px;
-        opacity: .4;
-        transition: all .5s;
-      }
-      
-     
+    top: 0;
+}
+.nav .name {
+    color: white;
+    display: block;
+    margin-right: auto;
+}
+.nav .name:hover {
+    color: #222;
+}
+.nav li {
+    padding: 5px 10px 10px 10px;
+}
+.nav a {
+    transition: all .5s;
+}

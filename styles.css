@@ -18,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #850202;
 }
 
 /* Section Styles */
@@ -49,10 +49,10 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
-  transition: all .5s;
+  transition: all .2s;
 }
 .nav a:hover {
-  color: white
+  color: #850202
 }
 
 header {
