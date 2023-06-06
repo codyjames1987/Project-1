@@ -4,7 +4,7 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #222;
-    background: #f7f5f0;
+    background: #f7f7f7;
   }
   a {
     text-decoration: none;
@@ -45,9 +45,6 @@ body {
       a.social:hover {
         opacity: 1;
       }
-      /* .clearfix {
-        clear: both;
-      } */
       a.social {
         display: inline-block;
         text-indent: -9999px;
