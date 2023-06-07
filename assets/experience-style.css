@@ -23,8 +23,17 @@ a:hover {
     padding: 10px;
     position: fixed;
     text-align: center;
-    top: 0;
+    /* top: 0; */
 }
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+
 .nav .name {
     color: white;
     display: block;
@@ -39,4 +48,77 @@ a:hover {
 .nav a {
     transition: all .5s;
 }
-/* <-- header --> */
+header {
+    text-align: center;
+    background-color: aqua;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+}
+header {
+    line-height: 1.5;
+}
+header .experience-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+}
+header .experience-image:hover {
+    transform: scale (1.2); rotate: (5deg);
+}
+.title  {
+    background-color: black;
+    color:rgb(248 247 247);
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px;auto;
+}
+.map {
+    background-color: #222;
+    color: rgb:(253, 6, 6);
+}
+.main-section {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+}
+.main-section:hover {
+    border-color: #222;
+}
+.section {
+    padding: 0;
+    text-align: center;
+}
+.section li {
+    border-radius: 6px;
+    display: inline-block;
+    background: #040200;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+  }
+  .flex {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+  }
+  .flex:hover {
+    border-color: black;
+  }
+  
+  
+  
