@@ -28,8 +28,9 @@ a:hover {
   background: black;
   min-height: 30px;
   padding: 10px;
-  position: fixed;
+  position: sticky;
   text-align: center;
+  
 }
 .nav {
   display: flex;
@@ -199,4 +200,10 @@ a.social:hover {
   }
 
 }
-
+.contact {
+  color: #850202;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body .cf {
+  background-image: url('images/contact.jpg');
+}
